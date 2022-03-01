@@ -33,7 +33,7 @@ def get_table_download_link(df):
     return href
 
 
-input_path = r"/home/baris/PycharmProjects/first_app/data/grid-cnrm_cmip6.csv"
+input_path = r"https://raw.githubusercontent.com/barisoztas/streamlit_playground/main/data/grid-cnrm_cmip6.csv"
 data_load_state = st.text('Loading data...')
 data = load_data(input_path)
 data_load_state.text("Done! ")
